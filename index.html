@@ -10,23 +10,29 @@
           rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
 </head>
 <body>
-<!-SEKCJA 1->
+<!-Sekcja 1->
 <header class="header-container container">
     <div class="header-intro">
         <a href="#" class="page-logo">BestShop</a>
         <nav class="page-nav">
             <ul class="page-nav-list">
-                <li><a href="#">why us</a></li>
-                <li><a href="#">benefits</a></li>
-                <li><a href="#">prices</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="index.html">why us</a></li>
+                <li><a href="#benefits">benefits</a></li>
+                <li><a href="#prices">prices</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
         </nav>
+        <button class="page-nav-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </div>
 </header>
-<!-SEKCJA 2->
+<!-Sekcja 2->
 <main class="main-container container">
     <div class="main-intro">
         <h1 class="page-tittle">Sell More!</h1>
@@ -34,7 +40,7 @@
         <button class="page-tittle-button"><a href="#">Open your shop</a></button>
     </div>
 </main>
-<!-SEKCJA 3->
+<!-Sekcja 3->
 <section class="section1-container container">
     <div class="section1-intro">
         <h2 class="section1-title">The most popular sales platform in country</h2>
@@ -57,8 +63,8 @@
         </div>
     </div>
 </section>
-<!-SEKCJA 4->
-<section class="section2-container container">
+<!-Sekcja 4->
+<section class="section2-container container" id="benefits">
     <div class="section2-content">
         <article class="section2-article section2-red">
             <strong>Be always first</strong>
@@ -93,7 +99,7 @@
     </div>
 </section>
 <!-Sekcja 5->
-<section class="section5 container">
+<section class="section5 container" id="prices">
     <h2 class="section5-heading">Pricing</h2>
     <div class="section5-box">
         <h3 class="section5-type">Basic</h3>
@@ -155,7 +161,7 @@
     </div>
 </section>
 <!-Sekcja 6->
-<section class="section6 container">
+<section class="section6 container" id="contact">
     <div class="section6-content">
         <div class="section6-content-contact">
             <h2 class="section6-content-title">Any questions ?</h2>
