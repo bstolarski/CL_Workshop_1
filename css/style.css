@@ -8,6 +8,7 @@
     --primaryGreen: #55DFB4;
     --primaryGray: #A5A5A5;
     --primaryLightGray: #F7F7F7;
+    font-size: 10px;
 }
 
 .container {
@@ -44,7 +45,7 @@ a.page-logo {
     text-align: left;
     font-family: "Raleway", sans-serif;
     font-weight: 300;
-    font-size: 32px;
+    font-size: 3.2rem;
     letter-spacing: 0;
     color: var(--primaryBlue);
     margin-left: 136px;
@@ -56,7 +57,7 @@ a.page-logo {
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-weight: normal;
-    font-size: 11px;
+    font-size: 1.1rem;
     letter-spacing: 3.28px;
     color: var(--primaryGray);
     height: 100%;
@@ -64,7 +65,7 @@ a.page-logo {
 
 .page-nav-list a:hover {
     font-weight: bold;
-    font-size: 11px;
+    font-size: 1.1rem;
     color: #000000;
 }
 
@@ -85,7 +86,7 @@ div.main-intro {
 h1.page-tittle {
     text-align: center;
     font-family: "Raleway", sans-serif;
-    font-size: 49px;
+    font-size: 4.9rem;
     letter-spacing: 0;
     color: #000000;
 }
@@ -102,7 +103,7 @@ span.page-tittle-span {
     display: block;
     text-align: center;
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     letter-spacing: 0;
     color: #000000;
     margin-top: 20px;
@@ -122,7 +123,7 @@ button.page-tittle-button a {
     display: block;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 0;
@@ -143,7 +144,7 @@ section.section1-container {
 h2.section1-title {
     display: flex;
     justify-content: center;
-    font-size: 36px;
+    font-size: 3.6rem;
     font-family: Raleway, sans-serif;
     letter-spacing: 0;
     color: #000000;
@@ -175,7 +176,7 @@ div.section1-content {
 }
 
 p.item-text {
-    font-size: 20px;
+    font-size: 2rem;
     font-family: Raleway, sans-serif;
     letter-spacing: 6px;
     text-align: center;
@@ -184,7 +185,7 @@ p.item-text {
 }
 
 span.item-span {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: Raleway, sans-serif;
     letter-spacing: 0;
     color: var(--primaryGray);
@@ -272,13 +273,13 @@ span.item-span {
 .section2-article strong {
     width: 100%;
     font-family: Raleway, sans-serif;
-    font-size: 36px;
+    font-size: 3.6rem;
     margin-bottom: 30px;
 }
 
 .section2-article p {
     font-family: Open Sans, sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     margin-bottom: 50px;
 }
 
@@ -391,7 +392,7 @@ img.iphone-img {
 
 .section5-heading {
     font-family: 'Raleway', serif;
-    font-size: 36px;
+    font-size: 3.6rem;
     text-align: center;
     width: 100%;
     justify-self: center;
@@ -435,22 +436,26 @@ img.iphone-img {
 .section5-type {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 21px;
+    font-size: 2.1rem;
 }
 
 .section5-price {
     display: block;
     font-family: 'Open Sans', sans-serif;
-    font-size: 46px;
+    font-size: 4.6rem;
     font-weight: 300;
     color: var(--primaryRed);
     margin-top: 18px;
 }
 
-.section-content {
+.section5-info {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     position: relative;
+    margin-top: 20px;
+}
+.section5-box .section5-info:first-of-type {
+    margin-top: 69px;
 }
 
 .section5-checkmark {
@@ -469,7 +474,7 @@ img.iphone-img {
     font-family: 'Raleway', serif;
     font-weight: 700;
     color: black;
-    font-size: 12px;
+    font-size: 1.2rem;
     margin-top: 10px;
 }
 
@@ -482,10 +487,6 @@ img.iphone-img {
     color: var(--primaryGreen);
 }
 
-.section5-box .section-content {
-    margin-top: 20px;
-}
-
 .section5-box:nth-of-type(1) .section-content:nth-of-type(1) {
     margin-top: 86px;
 }
@@ -495,18 +496,18 @@ img.iphone-img {
 }
 
 .section5-button {
+    position: absolute;
     display: block;
     text-decoration: none;
     border-radius: 23px;
     background-color: var(--primaryRed);
-    margin-top: 80px;
-    transition: 0.3s;
-    font-family: 'Open Sans', serif;
+    transition: 0.2s;
+    font-family: 'Open Sans', sans-serif;
     color: white;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 1.3rem;
     padding: 16px 57px;
-
+    bottom: -21px;
 }
 
 .section5-button:hover {
@@ -552,14 +553,14 @@ img.iphone-img {
 }
 
 .section6-content-title {
-    font-family: 'Raleway', serif;
-    font-size: 49px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4.9rem;
     margin-bottom: 22px;
 }
 
 .section6-content-text {
-    font-family: 'Open Sans', serif;
-    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
     margin-bottom: 42px;
 }
 
@@ -567,7 +568,7 @@ img.iphone-img {
 .section6-content-phone {
     display: inline-block;
     color: #707070;
-    font-family: 'Open Sans', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .section6-content-icon {
@@ -580,42 +581,42 @@ img.iphone-img {
 
 /*Sekcja 6 - Formularz*/
 
-.form .form__label {
+.form .form-label {
     display: inline-block;
-    font-family: 'Open Sans', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 11px;
+    font-size: 1.1rem;
     color: var(--primaryBlue);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-.form .form__label.form__email {
+.form .form-label.form-email {
     margin-top: 40px;
 }
 
-.form .form__input {
+.form .form-input {
     width: 100%;
     border: none;
     border-bottom: 2px solid rgba(150, 150, 150, .4);
     transition: .1s;
 }
 
-.form .form__input:focus {
+.form .form-input:focus {
     border-bottom-color: rgba(150, 150, 150, .8);
 }
 
-.form .form__input:nth-of-type(2) {
+.form .form-input:nth-of-type(2) {
     margin-bottom: 35px;
 }
 
-.form__checkbox--label input {
+.form-checkbox-label input {
     opacity: 0;
     position: absolute;
 }
 
-.form__checkbox--label .checkbox--custom {
+.form-checkbox-label .checkbox-custom {
     background: white;
     border: 1px solid #95989A;
     border-radius: 4px;
@@ -625,41 +626,39 @@ img.iphone-img {
     cursor: pointer;
 }
 
-.form__checkbox--label .checkbox--custom::after {
+.form-checkbox-label .checkbox-custom::after {
     content: "✓";
-    font-size: 20px;
+    font-size: 2rem;
     color: var(--primaryBlue);
     opacity: 0;
     top: 1px;
     left: 4px;
 }
 
-.form__checkbox--label input:checked ~ .checkbox--custom {
+.form-checkbox-label input:checked ~ .checkbox--custom {
     background-color: white;
 }
 
-.form__checkbox--label .checkbox:checked ~ .checkbox--custom::after {
+.form-checkbox-label .checkbox:checked ~ .checkbox-custom::after {
     opacity: 1;
     position: relative;
 }
 
-.form__container {
+.form-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-end;
 }
 
-.form__regulations {
+.form-regulations {
     margin-left: 10px;
-    width: 90%;
     color: #707070;
 }
 
-.form__btn {
+.form-btn {
     background-color: var(--primaryBlue);
-    font-family: 'Open Sans', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1.4rem;
     padding: 20px 97px;
     border-radius: 35px;
     color: white;
@@ -668,7 +667,7 @@ img.iphone-img {
     border: 1px solid var(--primaryBlue);
 }
 
-.form__btn:hover {
+.form-btn:hover {
     background-color: transparent;
     color: var(--primaryBlue);
 }
@@ -681,31 +680,28 @@ img.iphone-img {
     justify-content: space-between;
     align-items: center;
     padding: 0 130px;
-    box-shadow: 0px -5px 40px #00000029;
+    box-shadow: 0 -5px 40px #00000029;
     background-color: var(--primaryLightGray);
     margin-top: 70px;
 }
 
 .footer-copyright .copyright-logo {
-    font-family: 'Raleway', serif;
+    font-family: 'Raleway', sans-serif;
     color: var(--primaryBlue);
     font-weight: 300;
-    font-size: 26px;
+    font-size: 2.6rem;
 }
 
 .footer-copyright .copyright-info {
     color: var(--primaryGray);
-    font-family: 'Open Sans', serif;
-    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
     margin-top: 7px;
 }
 
 .footer-socials-twitter,
 .footer-socials-facebook {
     cursor: pointer;
-}
-
-.footer-socials-twitter {
     margin-right: 17px;
 }
 
