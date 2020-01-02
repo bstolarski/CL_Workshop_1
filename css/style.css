@@ -394,13 +394,13 @@ img.iphone-img {
 }
 
 .section5-box {
-    text-align: center;
     width: 372px;
     height: 461px;
     border: 1px solid var(--primaryRed);
     border-radius: 18px;
     padding: 38px 100px 80px 100px;
     transition: .3s;
+    text-align: center;
 }
 
 .section5-box {
@@ -412,39 +412,56 @@ img.iphone-img {
 }
 
 .section5-box:nth-of-type(2) {
+    transform: scale(1.1);
     border-color: var(--primaryBlue);
     box-shadow: 5px 10px 27px #07ACE629;
-    transform: scale(1.1);
-
 }
 
 .section5-box:nth-of-type(2):hover {
-    box-shadow: 5px 10px 45px #07ACE629;
     transform: scale(1.15);
+    box-shadow: 5px 10px 45px #07ACE629;
 }
 
 .section5-box:nth-of-type(3) {
     border-color: var(--primaryGreen);
 }
 
-.section5-type {
+.section5-package {
+    font-size: 2.1rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 2.1rem;
 }
 
 .section5-price {
     display: block;
-    font-family: 'Open Sans', sans-serif;
     font-size: 4.6rem;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: var(--primaryRed);
     margin-top: 18px;
 }
 
+.section5-box:nth-of-type(2) .section5-price {
+    color: var(--primaryBlue);
+}
+
+.section5-box:nth-of-type(3) .section5-price {
+    color: var(--primaryGreen);
+}
+.section5-box:nth-of-type(2) .section5-price::after,
+.section5-box:nth-of-type(3) .section5-price::after {
+    content: "Limited offer";
+    display: block;
+    font-family: 'Raleway', serif;
+    font-weight: 700;
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
 .section5-info {
-    font-family: 'Open Sans', sans-serif;
     font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
     position: relative;
     margin-top: 20px;
 }
@@ -462,26 +479,6 @@ img.iphone-img {
     vertical-align: baseline;
 }
 
-.section5-box:nth-of-type(2) .section5-price::after,
-.section5-box:nth-of-type(3) .section5-price::after {
-    content: "Limited offer";
-    display: block;
-    font-family: 'Raleway', serif;
-    font-weight: 700;
-    color: black;
-    font-size: 1.2rem;
-    margin-top: 10px;
-}
-
-.section5-box:nth-of-type(2) .section5-price {
-    color: var(--primaryBlue);
-
-}
-
-.section5-box:nth-of-type(3) .section5-price {
-    color: var(--primaryGreen);
-}
-
 .section5-box:nth-of-type(1) .section-content:nth-of-type(1) {
     margin-top: 86px;
 }
@@ -494,15 +491,15 @@ img.iphone-img {
     position: absolute;
     display: block;
     text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     border-radius: 23px;
     background-color: var(--primaryRed);
     transition: 0.2s;
-    font-family: 'Open Sans', sans-serif;
     color: white;
-    font-weight: bold;
-    font-size: 1.3rem;
     padding: 16px 57px;
-    bottom: -21px;
+    bottom: -20px;
 }
 
 .section5-button:hover {
@@ -522,7 +519,6 @@ img.iphone-img {
     color: var(--primaryGreen);
     border-color: var(--primaryGreen);
 }
-
 
 .section5-box:nth-of-type(2) .section5-button {
     box-shadow: 5px 10px 14px #07ACE629;
@@ -566,9 +562,9 @@ img.iphone-img {
 
 .section6-content-email,
 .section6-content-phone {
+    font-family: 'Open Sans', sans-serif;
     display: inline-block;
     color: #707070;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .section6-content-icon {
@@ -587,9 +583,9 @@ img.iphone-img {
 
 .form .form-label {
     display: inline-block;
+    font-size: 1.1rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 1.1rem;
     color: var(--primaryBlue);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -687,17 +683,17 @@ img.iphone-img {
 }
 
 .footer-copyright .copyright-logo {
-    font-family: 'Raleway', sans-serif;
-    color: var(--primaryBlue);
-    font-weight: 300;
     font-size: 2.6rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: var(--primaryBlue);
 }
 
 .footer-copyright .copyright-info {
+    font-size: 1.1rem;
     color: var(--primaryGray);
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.1rem;
-    margin-top: 7px;
+    margin-top: 8px;
 }
 
 .footer-socials-twitter,
@@ -785,6 +781,7 @@ img.iphone-img {
         flex-direction: column;
         align-items: center;
     }
+
     .section5-box {
         margin-bottom: 54px;
     }
